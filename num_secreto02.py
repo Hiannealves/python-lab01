@@ -4,7 +4,6 @@ for num in range(7):
   if tentativa==numero_secreto:
      print("Parabéns você acertou!!!")
      break
-  
   elif tentativa <=45 :
      print("Mais!!!")
 
@@ -14,4 +13,4 @@ for num in range(7):
   elif tentativa >= 51 and tentativa <= 99 :
      print("Menos!!!")
 else:
-     print("Game Over :(")
+     print(f"Game Over :( O número secreto era",numero_secreto)
