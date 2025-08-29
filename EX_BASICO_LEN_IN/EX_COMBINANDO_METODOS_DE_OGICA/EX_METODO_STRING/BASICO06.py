@@ -1,0 +1,5 @@
+# TRANSFORMAR PARA MAIÚSCULAS.
+# PEÇA AO USUÁRIO PARA DIGITAR UMA PALAVRA E IMPRIMA A PALAVRA EM LETRAS MAIÚSCULAS.
+
+palavra = input("Digite uma palavra: ").upper()
+print(palavra)
