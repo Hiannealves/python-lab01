@@ -1,0 +1,5 @@
+# TRANSFORMAR PARA MINÚSCULAS.
+# PEÇA AO USUÁRIO PARA DIGITAR UMA PALAVRA E IMPRIMA A PALAVRA EM LETRAS MINÚSCULAS.
+
+frase = input("Digite uma frase: ").lower()
+print(frase)
