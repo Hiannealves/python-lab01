@@ -1,0 +1,7 @@
+# CAPITALIZAR A FRASE
+# PEÇA AO USUÁRIO PARA DIGITAR UMA FRASE EM LETRAS MINÚSCULAS E
+# IMPRIMA A FRASE COM A PRIMEIRA LETRA DE CADA PALAVRA EM LETRA MAIÚSCULA.
+
+frase = input(" Digite uma frase: ")
+nova_frase = frase.title()
+print(nova_frase)

@@ -1,0 +1,6 @@
+# REMOVER ESPAÇOS
+# PEÇA AO USUÁRIO PARA DIGITAR UMA PALAVRA COM ESPAÇOS NO INICIO OU NO FIM (EX:' PALAVRA ').
+# IMPRIMA A PALAVRA SEM ESSES ESPAÇOS.
+
+palavra = input("Digite uma palavra:")
+print(palavra.strip())
