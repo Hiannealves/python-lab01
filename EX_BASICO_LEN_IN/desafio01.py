@@ -1,9 +1,12 @@
 while True:
-    A = int(input("Digite o lado A: "))
-    B = int(input("Digite o lado B: "))
-    C = int(input("Digite o lado C: "))
-    if A>0 and B>0 and C>0:
-            break
+    A = input("Digite o lado A: ")
+    B = input("Digite o lado B: ")
+    C = input("Digite o lado C: ")
+    
+    if A.isdigit() and B.isdigit() and C.isdigit():
+        A,B,C= int(A), int(B), int(C)
+        if A>0 and B>0 and C>0:
+         break
     else:
       print("Digite apenas números inteiros positivos!")
 
